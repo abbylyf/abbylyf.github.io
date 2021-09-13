@@ -11,7 +11,7 @@ github_repo: "https://github.com/abbylyf/abbylyf.github.io.git" # you code repos
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you're going to be!"
+sidebar-about-description: "Constantly juggling between art creation and scientific research. Long-term meditator. Living with the continuous uncertainty about life, as well as the reverence and love for it. Majored in Biological Science and Chemistry as an undergraduate at **Osaka University, Japan. Currently a PhD student at **University of Oxford, UK, focusing on Structural Biology."
 sidebar-avatar: /img/about-HJ.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
