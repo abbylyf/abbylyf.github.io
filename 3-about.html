@@ -118,6 +118,30 @@ header-img: "img/post-bg-rwd.jpg"
 {% endif %}
 <!-- Gitalk end -->
 
+#<!-- Gitalk 评论 start  -->
+# {% if site.gitalk.enable %}
+#<!-- Link Gitalk 的支持文件  -->
+#<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+#<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+
+#<div id="gitalk-container"></div>
+    #<script type="text/javascript">
+    #var gitalk = new Gitalk({
+
+    #// gitalk的主要参数
+        #clientID: `ef6265ac358ae77a22ac`,
+        #clientSecret: `732b8a264f13f27ff95b78466a824672859f3aaa`,
+        #repo: `存储你评论 issue 的 Github 仓库名`,
+        #owner: 'abbylyf',
+        #admin: ['abbylyf'],
+        #id: '页面的唯一标识，gitalk会根据这个标识自动创建的issue的标签',
+    
+    #});
+    #gitalk.render('gitalk-container');
+#</script>
+#{% endif %}
+#<!-- Gitalk end -->
+
  <!-- disqus 评论框 start  -->
 {% if site.disqus.enable %}
 
